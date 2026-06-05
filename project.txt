@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Manisha Dudi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Portfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-section">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+            <div class="card project-card">
+                <h3>QR Scam Awareness Platform</h3>
+                <p>
+                    A web platform designed to educate users about QR code scams and digital fraud awareness.
+                </p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="card project-card">
+                <h3>EduBot - AI-Powered Study Assistant</h3>
+                <p>
+                    An educational chatbot project built to assist students with academic queries and learning support.
+                </p>
+                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="card project-card">
+                <h3>Student Dropout Risk Prediction</h3>
+                <p>
+                    A machine learning project that predicts student dropout risk using classification algorithms and real datasets.
+                </p>
+                <p><strong>Tech Stack:</strong> Python, Pandas, NumPy, Scikit-learn</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Manisha Dudi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
